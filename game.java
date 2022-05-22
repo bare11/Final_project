@@ -111,8 +111,8 @@ public class game extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
    
-      GamePanel s = new GamePanel();
-     s.setVisible(true);
+    GameFrame s = new GameFrame();
+     s.show();
     }
 
     /**
